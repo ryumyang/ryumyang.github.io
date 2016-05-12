@@ -1,0 +1,62 @@
+// portpolio.scss
+
+#wrap{width: 100%; height: 1200px; background-color: #242424; margin: 0 auto;
+    #left{width: 50%; height: 100%; float: left;
+        .line{width: 12px; height: 100%; margin-left: 200px; float: left; background-color: #9c7a7a;}
+    }// #left
+    #right{width: 50%; height: 100%; float: left;
+        #article{width: auto; height: auto; margin: 190px 18px 572px 90px;
+            a:hover{text-decoration: none;}
+            h1>a{font-size: 60px; color: #fff; font-weight: 200}
+            .right_line{width: 322px; height: 6px; margin-bottom: 16px; background-color: #fff;}
+            .contents{width: auto; height: 120px;
+                .icon_box{width: 148px; height: 100%; background-image: url("../img/monitor.png"); float: left; margin-right: 36px;}
+                >ul{width: auto; height: 120px; float: left;
+                    li{list-style-type: circle; color: #fff; font-weight: 450}
+                    li>a{color: #fff; font-size: 28px;}
+                    .resume{display: block; margin-bottom: 12px;
+                        &:hover{color: #aaa;}
+                        }// .resume 
+                    .solo{display: block; margin-bottom: 12px;
+                        &:hover{color: #aaa;}
+                        }// .solos 
+                    .team:hover{color: #aaa;}
+                }// ul
+            }// .contents
+            .sns{width: auto; height: auto; float: left; margin-top: 50px; margin-left: 138px;
+                .sns_link{font-size: 25px; color: #fff; border-bottom: 2px solid #fff;
+                    &:hover{color: #86adde;}
+                    &:hover{border-bottom: 2px solid #86adde;}
+                    }// .sns_link
+            }// .sns
+        }// #article
+    }// #right
+}// #wrap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
