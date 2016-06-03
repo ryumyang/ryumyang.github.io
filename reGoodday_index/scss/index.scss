@@ -1,0 +1,190 @@
+//basic.scss
+
+#wrap{width: 100%; height: auto; margin: 0 auto; background-color: #e3e2e2; position: relative;}
+#head{width: 100%; height: 290px; background-color: #b0d015;
+    >#top{width: 960px; height: 42px; background-color: #b0d015; margin: 0 auto;}
+        .go_home{width: 100px; height: 100%; float: left;
+            a{height: 100%; line-height: 42px; display: block; color: #444;}
+            i{height: 100%; line-height: 42px; font-size: 20px;}
+        }// .go_home
+        ul{width: 450px; height: 42px; float: right; margin-right: 20px;
+        .sitemap{width: 150px; height: 100%; float: left; text-align: center;
+            &:hover{background-color: #ddd;}
+            a{line-height:42px;}
+        }// .sitemap
+        .login{width: 150px; height: 100%; float: left; text-align: center;
+            &:hover{background-color: #ddd;}
+            a{line-height:42px;}
+        }// .login
+        .join{width: 150px; height: 100%; float: right; text-align: center;
+            &:hover{background-color: #ddd;}
+            a{line-height:42px;}
+        }// .join
+    }// ul
+    #logo{width: 100%; height: 248px;
+        >a{width: 100%; height: 100%; display: block; background-image: url(../img/main_logo.png); background-repeat: no-repeat;
+            background-position: center center; display: block; background-color: #e3e2e2;}
+    }// #logo
+}// #head
+#arti{width: 960px; height: 1112px; margin: 0 auto;
+    .nav{width: 100%; height: 42px; position: relative; z-index: 100;
+        ul{width: 100%; height: 100%; float: left;
+        .nav01{width: calc(100% / 4); height: 100%; float:left; background-color: #b0d015;
+            a{line-height: 42px; display: block; text-align: center; color: #757575;}
+            &:hover{background-color: #ddd;}
+            >ul{display: none;}
+                li{background-color: #b0d015;
+                    a:hover{background-color: #ddd;}
+                    }// li
+            }// .nav01
+        .nav02{width: calc(100% / 4); height: 100%; float:left;
+                background-color: #b0d015;
+            a{line-height: 42px; display: block; text-align: center; color: #757575;}
+            &:hover{background-color: #ddd;}
+            >ul{display: none;}
+            li{background-color: #b0d015; 
+                a:hover{background-color: #ddd;}
+                }// li
+            }// .nav02
+        .nav03{width: calc(100% / 4); height: 100%; float:left;
+                background-color: #b0d015;
+            a{line-height: 42px; display: block; text-align: center; color: #757575;}
+            &:hover{background-color: #ddd;}
+            >ul{display: none;}
+            li{background-color: #b0d015; 
+                a:hover{background-color: #ddd;}
+                }// li
+            }// .nav03
+        .nav04{width: calc(100% / 4); height: 100%; float:left;
+                background-color: #b0d015;
+            a{line-height: 42px; display: block; text-align: center; color: #757575;}
+            &:hover{background-color: #ddd;}
+            >ul{display: none;}
+            li{background-color: #b0d015;
+                a:hover{background-color: #ddd;}
+                }// li
+            }// .nav04
+        }// ul
+    }// .nav
+    #banner{width: 100%; height: 386px; position: relative; overflow: hidden;
+        .btn{width: 0; height: 0; overflow: hidden; position: relative;}
+        .btn>button{width: 50px;height: 386px; position: absolute; top:0;}
+        .ban{width: 600%; height: 100%; margin-left: -100%;
+            li{width: calc(100% / 6); height: 100%; float: left;}
+            .ban01{background-image: url("../img/banner06.jpg");}
+            .ban02{background-image: url("../img/banner02.jpg");}
+            .ban03{background-image: url("../img/banner03.jpg");}
+            .ban04{background-image: url("../img/banner04.jpg");}
+            .ban05{background-image: url("../img/banner05.jpg");}
+        }// .ban_img
+        .indi{width: 306px; height: 10px; position: absolute; bottom: 20px; left: 50%; margin-left: -200px;
+            li{width: 20px; height: 20px; background-color: #fff; border-radius: 10px; float: left; margin-left: 30px; cursor: pointer; transition: all 0.5s;}
+            li span{width: 0; height: 0; display: block; overflow: hidden;}
+            li:hover{background-color: #ac7;}
+            li.indWidth{width: 60px;}
+        }// .indi
+    }// #banner
+    #con{width: 100%; height: 662px;
+    .conBox01{width: 100%; height: 390px;
+        .video{width: 490px; height: 322px; margin-top: 58px; margin-left: 40px; float: left;
+        div{width: 100%; height: 30px;
+            h3{width: 64px; height: 22px; margin-bottom: 8px; font-size: 22px; float: left;}
+            .video_line{width: 424px; height: 1px; background-color: #000; float: left; margin: 10px 0;}
+            }// div
+            iframe{width: 490px; height: 292px;}
+            }// .video
+      
+      
+        .news{width: 352px; height: 162px; margin: 58px 45px 38px 32px; float: right;
+            div{width: 100%; height: 25px; float: left;
+                h3{width: 64px; height: 22px; font-size: 22px; float: left;}
+                .news_line{width: 288px; height: 1px; background-color: #000; float: left; margin: 10px 0;}
+            }// div
+            ul{margin-top: 6px; float: left;
+            a{display: block; color: #000;}
+            .news_title{width: 100%; height: 30px; font-size: 16px;
+            }// .news_title
+            .news01{width: 352px; height: 25px; font-size: 16px; margin-top: 6px;}
+            .news02{width: 352px; height: 25px; font-size: 16px;}
+            .news03{width: 352px; height: 24px; font-size: 16px;}
+            .news04{width: 352px; height: 24px; font-size: 16px;}
+            }// ul
+            }// .news
+      
+      
+        .park{width: 352px; height: 122px; margin-right: 45px; margin-left: 32px; float: right; background-image: url("../img/park.jpg");}
+        }// .conBox01
+    .conBox02{width: 100%; height: 292px;
+        .event{width: 490px; height: 160px; margin: 58px 32px 64px 40px; float: left;
+            div{width: 100%; height: 30px; margin-bottom: 12px;
+                h3{width: 65px; height: 22px; margin-bottom: 8px; font-size: 22px; float: left;}
+                .event_line{width: 420px; height: 1px; background-color: #000; float: left; margin: 10px 0;}
+            }
+            .event_ad{width: 490px; height: 126px; background-image: url("../img/event.jpg"); background-repeat: no-repeat; display: block;}
+            }// .event
+        .familySite{width: 352px; height: 160px; margin: 58px 44px 64px 0; float: left;;
+            div{width: 100%; height: 30px;
+                h3{width: 110px; height: 22px; font-size: 22px; float: left;}
+                .family_line{width: 220px; height: 1px; background-color: #000; float: left; margin: 10px 0;}
+            }
+            ul{width: 352px; height: 126px; margin-top: 8px;
+                a{width: 100%; height: 55px; display: block;}
+                .first{background-image:url("../img/family01.jpg"); background-repeat: no-repeat; margin-bottom: 16px;}
+                .second{background-image:url("../img/family02.jpg"); background-repeat: no-repeat;}
+                }// ul
+            }// .familySite
+        }// .conBox02
+    }// #con
+}// #arti
+#foot{width: 100%; height: 84px; background-color: #bfbfbf;
+    .footLogo{width: 150px; height: 100%; float: left; margin-left: 184px;
+        >a{width: 120px; height: 50px; display: block; background-image: url("../img/foot_logo_gray.png");  margin-top: 20px; margin-left: 20px; background-repeat: no-repeat;}
+    }// .footLogo
+    .footBox{width:590px; height: 100%; float: left; font-size: 12px; color: #6b6b6b; margin-left: 10px;
+        .info{width: auto; height: auto; margin-top: 20px; float: left;
+            .a01{float: left; color: #000;}
+            .p01{float: left; margin: 0 8px;}
+            .a02{float: left; color: #000;}
+            .p02{float: left; margin: 0 8px;}
+            .a03{float: left; color: #000;}
+            .p03{float: left; margin: 0 8px;}
+            .a04{float: left; color: #000;}
+            .last{color: 999; margin-top: 4px;}
+        }// .info
+    }// .footBox
+    .iconBox{width: 174px; height: 100%; float: left; margin-left: 16px;
+        i{margin-top: 17px; margin-left: 10px;}
+        .icon01>i{font-size: 44px; float: left;
+            &:hover{color: #189}
+        }
+        .icon02>i{font-size: 44px; float: left;
+            &:hover{color: #189}
+        }
+        .icon03>i{font-size: 44px; float: left;
+            &:hover{color: #189}
+        }
+    }// .iconBox
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
