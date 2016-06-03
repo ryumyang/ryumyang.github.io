@@ -1,0 +1,59 @@
+// index.scss(process)
+
+#wrap{width: 100%; height: auto;
+    #header{width: 100%; height: 150px; position: fixed; top: 0; z-index: 500; background-color: #9c9c9c;
+        h1{width: auto; height: 70px; float: left; margin-left: 30px; margin-top: 40px;  color: #000; font-size: 70px;
+            i{color: #000; font-size: 50px; margin-top: 18px; margin-left: 10px;}
+        }// h1
+        #gnb{width: auto; height: 60px; float: right; margin-top: 50px; margin-right: 20px;
+            ul{width: 100%; height: 100%; float: right;
+                li{width: 150x; height: 100%; float: left; margin-right: 15px;
+                    a{font-size: 20px; line-height: 70px; text-align: center; color: #fff;}
+                }// li
+            }// ul
+        }// #gnb
+    }// #header
+    #contianer, footer{height: calc(100% - 150px);} widows: 100%; position: absolute; top: 150px;
+    #container{width: 100%; height: auto;
+        #main{width: 100%; height: 200px; text-align: center; background-image: url("../img/main_logo.png"); background-repeat: no-repeat; background-position: (350px, 50px,);
+            p{width: 350px; height: auto; font-size: 50px; color: #000; float: left; margin-left: 630px; margin-top: 80px;}
+            #goGd_top{width: 200px; height: 40px; background-color: #818080; float: right; margin-top: 150px; margin-right: 20px;
+                &:hover{background-color: #ccc;}
+                a{width: 100%; height: 100%; color: #fff; font-size: 22px; line-height: 40px;
+                    &:hover{color: #818181;}
+                    i{color: #fff; font-size: 22px; line-height: 40px;
+                        &:hover{color: #818181;}
+                    }// i
+                }// a
+            }// #goGd_top
+        }// #main
+        #pro01{width: 100%; height: 500px; background-color: #f81;}
+        #pro02{width: 100%; height: 500px; background-color: #f6a;}
+        #pro03{width: 100%; height: 500px; background-color: #fa9;}
+        #pro04{width: 100%; height: 500px; background-color: #f0c;}
+        #pro05{width: 100%; height: 500px; background-color: #2fa;}
+    }// #container
+    #footer{width: 100%; height: 100px; background-color: #a8a6a6;
+        #goHome{width: 120px; height: 40px; background-color: #fff; float: left; margin-left: 20px; margin-top: 30px;
+                &:hover{background-color: #f0f0f0;}
+                a{width: 100%; height: 100%; color: #818080; font-size: 22px; line-height: 40px; margin-left: 6px;
+                    &:hover{color: #222;}
+                    i{color: #818080; font-size: 22px; line-height: 40px;
+                        &:hover{color: #222;}
+                    }// i
+                }// a
+            }// #goHome
+        p{width: 320px; height: 50px; color: #fff; font-size: 50px; float: left; margin-top: 30px; margin-left: 350px;
+            i{color: #fff; font-size: 50px;}
+        }// p
+        #goGd_bottom{width: 200px; height: 40px; background-color: #fff; float: right; margin-top: 30px; margin-right: 20px;
+                &:hover{background-color: #f0f0f0;}
+                a{width: 100%; height: 100%; color: #818080; font-size: 22px; line-height: 40px; margin-left: 6px;
+                    &:hover{color: #222;}
+                    i{color: #818080; font-size: 22px; line-height: 40px;
+                        &:hover{color: #222;}
+                    }// i
+                }// a
+            }// #goGd_bottom
+    }// #footer
+}// #wrap
